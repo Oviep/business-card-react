@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  padding: 0;
+  color:white;
+   background: #23252C;
+   font-weight: 'Inter', sans-serif;
+   text-align: center;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:fit-content;
+  margin-top: 2.75em;
+  background:#1A1B21;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  
+ 
+}
+
+.about, .interests {
+  width: 247px;
+ margin-left: auto;
+  margin-right: auto;
+   text-align: start;
+}
+
+
+
+.img{
+  width: 320px;
+  height: 320px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+
+/* .container-text {
+  text-align: center;
+} */
+
+.site-link {
+  display: block;
+  margin-top:-5px;
+  color:#F5F5F5;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+  
+
+
+.job-text {
+  color:#F47D27;
+  margin-top: -17px;
+}
+
+.link-btn {
+  padding: 9px 15px;
+  margin-right: 10px;
+  border:none;
+  border-radius: 5px;
+}
+
+.email{
+  background: white;
+}
+
+.linkedIn{
+  background:#5093E2;
+  color:white;
+}
+
+.text {
+  margin:0;
+  line-height: 1.5;
+}
+
+.footer {
+  width: 320px;
+  height: 64px;
+  background:#161619;
+  padding: 3em;
+  text-align: center;
+}
+.footer-icon {
+  font-size: 2rem;
+  margin-right: 20px;
+}
+.interests {
+  margin-bottom: 1.5em;
+}
